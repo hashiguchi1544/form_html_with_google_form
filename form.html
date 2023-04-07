@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>フォーム</h1>
+    <form action="" method="post">
+        <h5>お名前</h5>
+        <input type="text" name="entry.">
+        <br><br>
+
+        <h5>ご連絡メールアドレス</h5>
+        <input type="text" name="entry.">
+        <br><br>
+
+        <h5>希望する職種</h5>
+        <!-- id lebel for を使い看護師をクリックするとチェックされる -->
+        <input type="radio" name="entry." value="看護師" id="select_radio_nurse"><label for="select_radio_nurse">看護師</label>
+        <input type="radio" name="entry." value="介護士・看護助手">介護士・看護助手
+        <input type="radio" name="entry." value="薬剤師">薬剤師
+        <input type="radio" name="entry." value="理学療法士">理学療法士
+        <input type="radio" name="entry." value="作業療法士">作業療法士
+        <input type="radio" name="entry." value="事務職員">事務職員
+        <br><br>
+
+        <h5>面談方法</h5>
+        <input type="radio" name="entry." value="病院見学をしたい" id="select_radio_hp"><label for="select_radio_hp">病院見学をしたい</label>
+        <input type="radio" name="entry." value="zoomで病院の説明をしてほしい" id="select_radio_zoom"><label for="select_radio_zoom">zoomで病院の説明をしてほしい</label>
+        <input type="radio" name="entry." value="電話で話したい" id="select_radio_tel"><label for="select_radio_tel">電話で話したい</label>
+        <br><br>
+
+        <h5>その他(任意)</h5>
+        <input type="text" name="entry.">
+        <br><br>
+
+        <button type="submit">送信</button>
+
+
+    </form>
+</body>
+</html>
