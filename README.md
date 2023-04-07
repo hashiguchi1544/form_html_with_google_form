@@ -5,9 +5,9 @@ htmlファイルに必要最低限を記述しています。
 
 # やるべきこと
 
-google form のソースコードから、**form actionの値**と**各エントリー値**を取得します。
+google form のソースコードから、**form actionの値**と**各entry値**を取得します。
 
-エントリーは、分かりにくいので画像で説明します。
+entryは、分かりにくいので画像で説明します。
 
 ここでは、「お名前」のentryの値を取得するとします。
 
@@ -24,9 +24,9 @@ google form のソースコードから、**form actionの値**と**各エント
 お名前のentryは、**401220032**になります。
 
 
-また、radio buttonの選択項目は、1つ値を、各エントリーに共有します。
+また、radio buttonの選択項目は、1つ値を、各entryに共有します。
 (サンプルでは、「希望職種」に、看護師・介護士・薬剤師...としてますが、
-各エントリーの値は、同じです。)
+各entryの値は、同じです。)
 
 <img width="606" alt="Screenshot 2023-04-07 9 55 24" src="https://user-images.githubusercontent.com/69481175/230519050-09f2552c-580b-4ce6-9056-1d0118c4dea2.png">
 
